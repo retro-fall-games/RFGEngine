@@ -137,9 +137,15 @@ namespace RFG.Utils
 
     public static GameObject CreatePrefab(string path, string objName)
     {
-      UnityEngine.Object obj = AssetDatabase.LoadAssetAtPath($"{path}/{objName}.prefab", typeof(GameObject));
-      GameObject clone = null;
-      clone = PrefabUtility.InstantiatePrefab(obj) as GameObject;
+      string fullPath = $"{path}/{objName}.prefab";
+      Debug.Log($"Creating Prefab at path {fullPath}");
+      UnityEngine.Object obj = AssetDatabase.LoadAssetAtPath(fullPath, typeof(GameObject));
+      GameObject clone = PrefabUtility.InstantiatePrefab(obj) as GameObject;
+      if (clone == null)
+      {
+        Debug.Log("Prefab returned null");
+        return null;
+      }
       Selection.activeObject = clone;
       clone.name = objName;
       return clone;

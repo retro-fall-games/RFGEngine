@@ -50,7 +50,7 @@ namespace RFG.Core
       Button addGameManagerButton = rootVisualElement.Q<Button>("game-manager-button");
       addGameManagerButton.clicked += () =>
       {
-        EditorUtils.CreatePrefab("Assets/com.retrofallgames.engine/Runtime/Core/Game/Prefabs", "GameManager");
+        EditorUtils.CreatePrefab("Assets/RFGEngine/Runtime/Core/Game/Prefabs", "GameManager");
         Debug.Log("Added the game manager to the scene");
       };
     }
