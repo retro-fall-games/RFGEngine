@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="GameEditorWindow.uss" />
+    <ui:Label text="Game Editor" name="title" class="title" style="-unity-text-align: upper-center;" />
+    <ui:VisualElement name="container">
+        <ui:VisualElement name="setup-container" class="setup-container">
+            <ui:Label text="Setup" display-tooltip-when-elided="true" name="setup-container-label" class="setup-container-label" />
+            <ui:VisualElement name="setup-buttons" class="setup-buttons">
+                <ui:Button text="Sound Setup" display-tooltip-when-elided="true" name="sound-setup-button" />
+                <ui:Button text="Platformer Setup" display-tooltip-when-elided="true" name="platformer-setup-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="managers-container" class="setup-container">
+            <ui:Label text="Managers" display-tooltip-when-elided="true" name="managers-container-label" class="setup-container-label" />
+            <ui:VisualElement name="managers-buttons" class="setup-buttons">
+                <ui:Button text="Add Game Manager" display-tooltip-when-elided="true" name="game-manager-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
