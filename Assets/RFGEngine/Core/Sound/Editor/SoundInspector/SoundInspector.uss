@@ -1,0 +1,20 @@
+.button-container {
+  padding: 8px;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.button {
+  background-color: #2f2f2f;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.button:hover {
+  border-color: #fff;
+}
+
+.button:active {
+  background-color: #5c5c5c;
+}

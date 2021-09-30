@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="PlaylistInspector.uss" />
+    <ui:VisualElement name="VisualElement">
+        <ui:VisualElement class="button-container">
+            <ui:Button text="Generate Audio Source" display-tooltip-when-elided="true" name="generate" class="button" />
+        </ui:VisualElement>
+        <ui:VisualElement class="button-container">
+            <ui:Button display-tooltip-when-elided="true" enable-rich-text="true" name="prev" class="button" style="cursor: initial;">
+                <ui:VisualElement style="background-image: url(&apos;/Assets/RFGEngine/Core/Sound/Icons/AudioControls_Prev.png&apos;); width: 16px; height: 16px;" />
+            </ui:Button>
+            <ui:Button display-tooltip-when-elided="true" enable-rich-text="true" name="stop" class="button" style="cursor: initial;">
+                <ui:VisualElement style="background-image: url(&apos;/Assets/RFGEngine/Core/Sound/Icons/AudioControls_Stop.png&apos;); width: 16px; height: 16px;" />
+            </ui:Button>
+            <ui:Button display-tooltip-when-elided="true" enable-rich-text="true" name="play" class="button" style="cursor: initial;">
+                <ui:VisualElement style="background-image: url(&apos;/Assets/RFGEngine/Core/Sound/Icons/AudioControls_Play.png&apos;); width: 16px; height: 16px;" />
+            </ui:Button>
+            <ui:Button display-tooltip-when-elided="true" enable-rich-text="true" name="pause" class="button" style="cursor: initial;">
+                <ui:VisualElement style="background-image: url(&apos;/Assets/RFGEngine/Core/Sound/Icons/AudioControls_Pause.png&apos;); width: 16px; height: 16px;" />
+            </ui:Button>
+            <ui:Button display-tooltip-when-elided="true" enable-rich-text="true" name="next" class="button" style="cursor: initial;">
+                <ui:VisualElement style="background-image: url(&apos;/Assets/RFGEngine/Core/Sound/Icons/AudioControls_Next.png&apos;); width: 16px; height: 16px;" />
+            </ui:Button>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

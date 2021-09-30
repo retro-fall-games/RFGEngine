@@ -6,39 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/com.retrofallgames.engine/Samples/BitSword/Scenes/Splash.unity
-    guid: a4e94810673ac374b8339fcfb4ba1f9b
+    path: Assets/RFGEngine/Samples/Sound/Sound.unity
+    guid: c6a28f4854dc8c14ca08850dc5f27999
   - enabled: 1
-    path: Assets/com.retrofallgames.engine/Samples/BitSword/Scenes/Title.unity
-    guid: 184a9a9bac8a6454d9ec2087d6440392
-  - enabled: 1
-    path: Assets/com.retrofallgames.engine/Samples/BitSword/Scenes/Profile.unity
-    guid: d8d8c5372a123f1488ec7f25b83d7913
-  - enabled: 1
-    path: Assets/com.retrofallgames.engine/Samples/BitSword/Scenes/Intro.unity
-    guid: 74b2e8ecaaa1e874084c87405d28e09e
-  - enabled: 1
-    path: Assets/com.retrofallgames.engine/Samples/BitSword/Scenes/EndCredits.unity
-    guid: 03badd9f48948ce4da9e32f6ab86527d
-  - enabled: 1
-    path: Assets/com.retrofallgames.engine/Samples/BitSword/Scenes/Levels/Level1.unity
-    guid: 321d8f85168a3d54db35b6b9515caae9
-  - enabled: 1
-    path: Assets/com.retrofallgames.engine/Samples/BitSword/Scenes/Levels/Level2.unity
-    guid: 54b730fcdb8f86240bd1b80b95d57fa7
-  - enabled: 1
-    path: Assets/com.retrofallgames.engine/Samples/BitSword/Scenes/Levels/Level3.unity
-    guid: 26317a0173e0e6f459765217be413c30
-  - enabled: 1
-    path: Assets/com.retrofallgames.engine/Samples/BitSword/Scenes/Levels/Level4.unity
-    guid: e321b888a8bc11e4b8ac25ff9010ac58
-  - enabled: 1
-    path: Assets/com.retrofallgames.engine/Samples/BitSword/Scenes/Levels/Level5.unity
-    guid: 28aefe82f32faf04180414d0984b0a55
-  - enabled: 1
-    path: Assets/com.retrofallgames.engine/Samples/BitSword/Scenes/Levels/Level6.unity
-    guid: 42a938fde7d498e4490a71617872024d
-  - enabled: 1
-    path: Assets/com.retrofallgames.engine/Samples/BitSword/Scenes/Levels/Level7.unity
-    guid: d3fd70c5ae3106f45954de72c18b0c51
+    path: Assets/RFGEngine/Samples/Sound/Sound2.unity
+    guid: cc8072e9f0a741c4ba46063579bd241e
   m_configObjects: {}
